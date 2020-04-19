@@ -26,7 +26,7 @@ name = "No match"
 # iterating through each csvrow
 for index, row in df.iterrows():
 	
-	# checking if each STR appears in txt at minimum
+	# checking if each STR appears in .txt at minimum
 	if False not in [st * int(row[[st]]) in seq for st in strs]:
 
 		# checking for presence of any extra repetitions
