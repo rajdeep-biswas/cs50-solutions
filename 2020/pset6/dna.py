@@ -1,6 +1,5 @@
 import sys
 import pandas as pd
-import re
 
 # check for the correct number CL arguments
 if len(sys.argv) != 3:
